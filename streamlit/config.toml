@@ -1,0 +1,11 @@
+# .streamlit/config.toml
+[cli]
+global = false
+
+[server]
+runOnSave = true
+
+[runner]
+# CRITICAL FIX: Force a PyTorch-compatible Python version (3.10)
+# The version must be lower than 3.13 to install torch.
+python_version = "3.10"
