@@ -1,7 +1,9 @@
+# requirements.txt
 streamlit
-torchvision
 numpy
 scipy
 tifffile
-
-rasterio
+pillow
+# PyTorch dependency, often requires extra handling
+torch
+torchvision
