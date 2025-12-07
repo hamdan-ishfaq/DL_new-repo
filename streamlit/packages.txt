@@ -1,0 +1,5 @@
+# .streamlit/packages.txt
+# Essential libraries for geospatial packages (like rasterio)
+libgdal-dev
+libproj-dev
+gdal-bin
