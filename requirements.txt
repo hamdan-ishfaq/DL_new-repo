@@ -5,7 +5,6 @@ tifffile
 rasterio
 pillow
 opencv-python
-torchaudio==2.1.2+cpu
-torchvision==0.16.2+cpu
-torch==2.1.2+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.1+cpu
+torchvision==0.19.1+cpu
+--index-url https://download.pytorch.org/whl/cpu
