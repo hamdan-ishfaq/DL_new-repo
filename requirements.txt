@@ -1,4 +1,3 @@
-# requirements.txt
 streamlit
 numpy
 scipy
@@ -6,8 +5,7 @@ tifffile
 rasterio
 pillow
 opencv-python
-
+torchaudio==2.1.2+cpu
+torchvision==0.16.2+cpu
+torch==2.1.2+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
-# CRITICAL: Use version 2.5.1 which the installer confirmed is available
-torch==2.5.1
-torchvision==0.18.1
