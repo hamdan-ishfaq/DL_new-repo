@@ -6,5 +6,5 @@ rasterio
 pillow
 opencv-python
 torch==2.5.1+cpu
-torchvision==0.20.1+cpu
+torchvision==0.20.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
