@@ -5,6 +5,9 @@ import tifffile as tiff
 from PIL import Image
 from model_custom6 import AttentionResUNet
 
+import os 
+torch.classes.__path__ = []
+
 st.set_page_config(page_title="Deforestation Detection")
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
