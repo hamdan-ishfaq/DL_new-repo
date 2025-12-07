@@ -1,0 +1,7 @@
+streamlit
+torch
+torchvision
+numpy
+scipy
+tifffile
+rasterio
